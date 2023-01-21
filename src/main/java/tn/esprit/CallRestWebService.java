@@ -20,6 +20,7 @@ import org.json.JSONObject;
  */
 
 /*ceci est un commentaire */
+/*ceci est un commentaire NUM2*/
 
 public class CallRestWebService {
 
