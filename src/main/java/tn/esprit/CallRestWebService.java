@@ -22,6 +22,8 @@ import org.json.JSONObject;
 /*ceci est un commentaire */
 /*ceci est un commentaire NUM2*/
 
+/*ceci est un commentaire NUM3*/
+
 public class CallRestWebService {
 
 	public static final String endpoint = "http://ip-api.com/json";
