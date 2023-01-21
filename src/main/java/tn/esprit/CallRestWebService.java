@@ -19,6 +19,8 @@ import org.json.JSONObject;
  *
  */
 
+/*ceci est un commentaire */
+
 public class CallRestWebService {
 
 	public static final String endpoint = "http://ip-api.com/json";
@@ -27,7 +29,7 @@ public class CallRestWebService {
 		HttpClient client = new DefaultHttpClient();
 		HttpGet request = new HttpGet(endpoint);
 		String ip = "not found";
-		try {
+		try {              
 			HttpResponse response = client.execute(request);
 			String jsonResponse = EntityUtils.toString(response.getEntity());
 			System.out.println("Response as String : " + jsonResponse);
